@@ -52,8 +52,10 @@
     "cbor-js": "^0.1.0",
     "cbor-sync": "^1.0.4",
     "lil-uuid": "^0.1.1",
+    "proxy-agent": "^6.3.0",
+    "react-native-get-random-values": "^1.10.0",
     "superagent": "^8.1.2",
-    "proxy-agent": "^6.3.0"
+    "text-encoding-utf-8": "^1.0.2"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^7.3.1",
