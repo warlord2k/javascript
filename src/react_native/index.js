@@ -15,12 +15,6 @@ import { stringifyBufferKeys } from '../web';
 import { CryptoModule, LegacyCryptor, AesCbcCryptor } from '../crypto/modules/WebCryptoModule/webCryptoModule';
 
 global.Buffer = global.Buffer || Buffer;
-
-
-Object.assign(global, {
-  TextEncoder: TextEncoder,
-  TextDecoder: TextDecoder,
-});
 global.TextEncoder = TextEncoder;
 global.TextDecoder = TextDecoder;
 
